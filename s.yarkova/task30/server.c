@@ -20,6 +20,7 @@ void checkMistakeAccept(int* sFd, int* clFd) {
     }
 }
 
+
 int main() {
     struct sockaddr_un server_un;
     char buff[100];
